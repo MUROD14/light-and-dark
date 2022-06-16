@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>#Vazifa</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    body {
+      background: #333;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;;
+    }
+    center {
+      margin-top: 200px;
+    }
+    .h1 {
+      font-size: 50px;
+    }
+    #box {
+      width: 100px;
+      height: 50px;
+      border-radius: 160px;
+      background: #fff;
+      cursor: pointer;
+      margin-top: 100px;
+    }
+    .krug {
+      width: 50px;
+      height: 50px;
+      position: relative;
+      top: 0;
+      left: 0;
+      background: linear-gradient(to bottom, white, #ccc);
+      border-radius: 50%;
+      transform: scale(0.9);
+      float: left;
+      transition: 0.5s;
+    }
+    .light {
+      background: #fff;
+      color: #333;
+    }
+    .color {
+      background: #4dd661 !important;
+    }
+    .onclick {
+      left: 50%;
+    }
+    .blue {
+      color: blue;
+    }
+    /* .saidmurod {
+      width: 200px;
+      height: 300px;
+      position: absolute;
+      background: #333;
+    }
+    .saidmurod::after {
+      content: "Hech nima yo'";
+      text-align: center;
+      display: block;
+    } */
+  </style>
+</head>
+<body>
+  <nav>
+    <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+  </nav>
+
+
+  <center>
+    <h1 class="h1">Click the buttom to adjust:</h1>
+    <div id="box">
+      <div class="krug"></div>
+    </div>
+  </center>
+  
+  <script src="./JavaScript/script.js"></script>
+</body>
+</html>
